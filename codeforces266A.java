@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.StringBuilder;
 
-public class 266A {
+public class codeforces266A {
 	public static boolean allSame(String n) {
 		for (int i = 0; i < n.length()-1; i++) {
 			if (n.charAt(i) != n.charAt(i+1))
